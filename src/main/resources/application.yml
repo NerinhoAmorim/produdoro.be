@@ -1,1 +1,15 @@
-spring.application.name=produdoro
+
+server:
+ servlet:
+  context-path: /produdoro/api
+  
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      uri: ${MONGO_DB_URI:mongodb+srv://neramornas:yBZNeMIFa6UsFup1@wakanda.d3o3yvu.mongodb.net/?retryWrites=true&w=majority}
+      auto-index-creation: true
+  
+  
+  
+
