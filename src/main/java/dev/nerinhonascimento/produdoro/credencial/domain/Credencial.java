@@ -25,5 +25,6 @@ public Credencial(String usuario, String senha) {
 }
 public String getPassword() {
 	return senha;
-}}
+  }
+}
 
