@@ -24,5 +24,17 @@ public class ConfiguracaoPadrao {
 	private Integer tempoMinutosPausaCurta;
 	private Integer tempoMinutosPausaLonga;
 	private Integer repeticoesParaPausaLonga;
+	public Integer getTempoMinutosFoco() {
+		return null;
+	}
+	public Integer getTempoMinutosPausaCurta() {
+		return null;
+	}
+	public Integer getTempoMinutosPausaLonga() {
+		return null;
+	}
+	public Integer getRepeticoesParaPausaLonga() {
+		return null;
+	}
 
 }
